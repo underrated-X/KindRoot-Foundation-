@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KindRoot Foundation</title>
+     <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- css linking -->
+    <link rel="stylesheet" href="../dist/css/volunteer.css">
+    <title>kindRoot Foundationh</title>
+    <link rel="icon" href="../images/kindRoot logo.jpeg ">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="">
+                    <img src="../images/kindRoot logo.jpeg" alt="">
+                </a>
+            </div> 
+            <div class="mobile-menu" id="mobileMenu">
+            <ul class="main-menu" >
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./index.html#about">about</a></li>
+                <li class="dropdown">
+                    <a href="./programs.html" class="program" >programs <i class="fa fa-arrow-down"></i></a>
+                    <ul class="dropdown-content section">
+                        <li> <a href="./programs.html#elderly-ones"> old ones</a></li>
+                        <li> <a href="./programs.html#widows"> widows </a></li>
+                        <li> <a href="./programs.html#neglected-children"> neglected children</a></li>
+                        <li> <a href="./programs.html#orphans"> orphans</a></li>
+                        <li> <a href="./programs.html#disabled"> disabled</a></li>
+                     </ul>
+                </li>
+                <li><a href="./volunteer.html">volunteer</a></li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+            <div class="dropdown">
+                <div class="btn black"><a href="./donate.html">
+                     donate
+                </a></div>
+                <div class="dropdown-content  donate">
+                    <a href="./donate.html#kindForm" onclick="showKindForm()"> kind</a>
+                    <a href="./donate.html#payment#form" onclick="showPaymentForm()"> cash</a>
+                </div>
+            </div>
+            </div>
+            <div class="hamburger-menu" id="hamburgerMenu"> <i class="fa fa-bars"></i></div>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="section-texts">
+                <p class="section-headline">Be the change someone needs today</p>
+                <p class="section-sub-headline">Join hands with KindRoot Foundation  to bring light into lives</p>
+            </div>
+            <div class="btn white"> <a href=""> Get involved</a></div>
+        </div>
+    </section>
+
+
+    <section class="reason">
+        <div class="container">
+            <p class="reason-main-text"> We need more people to help us achieve our goals, by investing their time, skills, and money to help build a community where kindness is the root</p>
+        
+            <div class="icons">
+                <div class="card">
+                    <div class="icon-img"> 🌼</div>
+                    <p class="icon-title"> Empower Lives</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon-img">🍁</div>
+                    <p class="icon-title"> Learn and Grow</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon-img"> 🎁</div>
+                    <p class="icon-title"> Give Back</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon-img"> 🎙</div>
+                    <p class="icon-title"> Be a Voice of Hope</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="volunteer-roles">
+        <div class="container">
+            <p class="volunteer-main-text">Skills/ roles you can apply for</p>
+           
+           <div class="tabs">
+            <input type="radio" name="tab" id="tab1" checked>
+             <label for="tab1" class="tab-name"> Roles</label>
+           
+            <input type="radio" name="tab" id="tab2">
+            <label for="tab2" class="tab-name">Skills</label>
+            
+
+            <div class="tab-content" id="content1" checked>
+                <div class="grid-container">
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title">Community Outreach Volunteer</p>
+                    <p class="job-description"> Help spread awareness about the foundation’s work, engage with local communities, and connect with families or individuals in need of support.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Flexible (a few hours weekly, depending on events)</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Fundraising Volunteer</p>
+                    <p class="job-description"> Assist in organizing fundraising campaigns, events, and online drives to support the foundation’s projects.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Part-time, especially during campaigns or events.</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Caregiver Support Volunteer</p>
+                    <p class="job-description"> Provide companionship, reading, light assistance, or recreational activities for elderly people, orphans, and children with disabilities.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Weekly visits (minimum 2–3 hours)</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Mentor / Tutor Volunteer</p>
+                    <p class="job-description"> Offer academic tutoring, life skills training, or mentorship to children and young people supported by the foundation.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Weekly or bi-weekly sessions</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Healthcare Support Volunteer</p>
+                    <p class="job-description"> Assist in basic health awareness programs, first aid, or help coordinate medical checkups (for qualified health professionals only).</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Monthly or during health outreach programs.</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title">Logistics & Transport Volunteer</p>
+                    <p class="job-description"> Assist with transportation of goods, donations, or participants during events and outreach programs.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> As needed, mostly during events.</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Donations & Resource Coordinator</p>
+                    <p class="job-description"> Assist in collecting, sorting, and distributing donations (clothes, food, school supplies, assistive devices, etc.) to beneficiaries.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Flexible, depending on donation drives and community needs.</p>
+                </div>
+
+                
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Administrative Volunteer </p>
+                    <p class="job-description"> Provide office support such as documentation, data entry, responding to inquiries, and record keeping.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Part-time, weekdays.</p>
+                </div>
+
+                
+            </div>
+    </div>
+            <div class="tab-content" id="content2">
+                 <div class="grid-container">
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Event Planning Volunteer</p>
+                    <p class="job-description"> Help plan, organize, and manage charity events, workshops, and community gatherings.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> As needed (before and during events)</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title" > Graphic Design / Web Volunteer</p>
+                    <p class="job-description"> Create flyers, posters, or update the website to support awareness campaigns.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Flexible, project-based</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Social Media & Content Volunteer</p>
+                    <p class="job-description"> Manage social media accounts, create posts, take photos/videos, and share updates to promote the foundation online.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span>A few hours per week, remote or hybrid.</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Chef / Cook Volunteer</p>
+                    <p class="job-description"> Prepare nutritious meals for elderly people, children, or during special events and outreach programs.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Weekly or during special feeding programs.</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Electrician Volunteer</p>
+                    <p class="job-description"> Provide electrical maintenance, repair, or installation services at the foundation’s facilities or for families in need. </p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> On call / project-based.</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Carpenter / Furniture Maker Volunteer</p>
+                    <p class="job-description"> Build, repair, or donate furniture (beds, chairs, tables, shelves) for the foundation’s homes or classrooms.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Flexible, project-based.</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Tailor / Fashion Designer Volunteer</p>
+                    <p class="job-description"> Sew or repair clothes for orphans, elderly people, and children in need. May also teach tailoring skills for empowerment.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> Flexible, project-based or weekly training sessions.</p>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Driver Volunteer</p>
+                    <p class="job-description"> Provide transportation for beneficiaries, staff, or donations to and from events and outreach locations.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> As needed, especially during events or emergencies.</p>
+                </div>
+
+                 <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Plumber Volunteer</p>
+                    <p class="job-description"> Help with plumbing repairs, maintenance, or installation in the foundation’s facilities or for disadvantaged families.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span> As needed, especially during events or emergencies.</p>
+                </div>
+
+                 <div class="card">
+                    <img src="" alt="">
+                    <p class="job-title"> Engineer Volunteer</p>
+                    <p class="job-description"> Support with construction, renovation, or technical projects such as building classrooms, homes, or accessibility facilities.</p>
+                    <p class="job-duration"> <span class="bold"> Duration: </span>Flexible, project-based</p>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="application">
+        <div class="container">
+            <p class="application-main-text"> how it works </p>
+            <div class="grid-cards">
+                <div class="card">
+                    <div class="section-img"> 📝</div>
+                    <p> apply</p>
+                    <p> Apply for the role/skills you would love to volunteer for by checking the availaible roles and skills needed.</p>
+                </div>
+
+                 <div class="card">
+                    <div class="section-img"> ✅</div>
+                    <p> get matched</p>
+                    <p> After applying, check if the time schedule aligns with your schedule and if the role / skill  you are applying for is still availaible or needed.</p>
+                </div>
+
+                 <div class="card">
+                    <div class="section-img"> ⛑</div>
+                    <p> Start volunteering</p>
+                    <p> The final step is to join us at KindRoot Founadation and start helping the ones who needs it most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "volunteer-stories">
+        <div class="container black">
+            <p class="stories-main-title"> testimonials</p>
+            <div class="top-section">
+                <p> what our volunteers says </p>
+                <p>Reviews and comments from our volunteers</p>
+            </div>
+
+            <div class="grid-section">
+                <div class="card"> 
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="rating-text">
+                       Spending time with the children and elderly has been life-changing. I came to give, but I ended up receiving so much love and wisdom in return.
+                    </p>
+                    <div class="volunteer-info">
+                        <div class="volunteer-info-texts">
+                            <p>Francis james</p>
+                            <p>Caregiver Role</p>
+                        </div>
+                        <img src="../images/icons8-get-quote-100.png" alt="" width="30px">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="rating-text">
+                        I never thought a few hours of my time could make such a difference. Helping raise funds has shown me the true power of community.
+                    </p>
+                    <div class="volunteer-info">
+                        <div class="volunteer-info-texts">
+                            <p> Kim Lutifat</p>
+                            <p> Fundraising Role</p>
+                        </div>
+                        <img src="../images/icons8-get-quote-100.png" alt="" width="30px">
+                    </div>
+                </div>
+                    
+                    <div class="card">
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="rating-text">
+                        Cooking for the foundation’s outreach programs has been a blessing. Knowing that a warm meal can bring hope is the best reward.
+                    </p>
+                    <div class="volunteer-info">
+                        <div class="volunteer-info-texts">
+                            <p> Rasheed Loveth</p>
+                            <p> Chef / Feeding Program</p>
+                        </div>
+                        <img src="../images/icons8-get-quote-100.png" alt="" width="30px">
+                    </div>
+                </div>
+
+                    <div class="card">
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="rating-text">
+                        Tutoring the children has given me purpose. Watching their confidence grow with every lesson is something I’ll always cherish.
+                    </p>
+                    <div class="volunteer-info">
+                        <div class="volunteer-info-texts">
+                            <p> Temi Tayo</p>
+                            <p> Mentor/Tutor</p>
+                        </div>
+                        <img src="../images/icons8-get-quote-100.png" alt="" width="30px">
+                    </div>
+                </div>
+
+                    <div class="card">
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="rating-text">
+                        Offering my skills as a nurse to help with health checkups has been fulfilling. It feels good to use my profession to serve humanity.
+                    </p>
+                    <div class="volunteer-info">
+                        <div class="volunteer-info-texts">
+                            <p>Ayo Tilewa</p>
+                            <p> Medical Professional</p>
+                        </div>
+                        <img src="../images/icons8-get-quote-100.png" alt="" width="30px">
+                    </div>
+                 </div>
+
+                <div class="card">
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="rating-text">
+                        Building applications that help streamline the foundation’s operations has been a rewarding experience. It’s amazing to see how technology can enhance our impact.
+                    </p>
+                    <div class="volunteer-info">
+                        <div class="volunteer-info-texts">
+                            <p> Ekemode Taofeeqoh</p>
+                            <p> IoT Developer</p>
+                        </div>
+                        <img src="../images/icons8-get-quote-100.png" alt="" width="30px">
+                    </div>
+             </div>
+        </div>
+    </section>
+ 
+    <section class="form">
+        <div class="container">
+            <p class="form-title">Fill in your credentials</p>
+            <form action="registration-form" id="registration" method="get">
+                <div class="container-sm">
+                    <input type="text" name="username" id="name" required placeholder=" John Doe">
+                    <input type="email" name="username" id="email" required placeholder=" JohnDoe01@gmail.com">
+                    <input type="number" name="number" id="phoneNumber" required placeholder="+448907654341">
+                   <select name="skills" id="skills">
+                    <option value="1"> Skills / Roles</option>
+                    <option value="2"> chef</option>
+                    <option value="3"> medical doctor</option>
+                    <option value="4"> legal lawyer</option>
+                    <option value="5"> Electrician </option>
+                    <!-- <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option> -->
+                   </select>
+                    <select name="" id="">
+                        <option value="">Availaible </option>
+                        <option value=""> yes</option>
+                        <option value=""> This skill is currently unavailable, check  other skills</option>
+                    </select>
+                    <input type="submit" value=" submit" class="btn black">
+                </div>
+            </form>
+        </div>
+    </section>
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-card">
+                <p>Be the reason why someone smiles this week</p>
+                <p>Planting hope where it's needed most</p>
+                <label for="email"> email</label>
+                <input type="text">
+                <div class="btn black">
+                    <a href=""> subscribe</a>
+                </div>
+            </div>
+            <div class="footer-card">
+                <img src="../images/kindRoot logo.jpeg" alt="kindroot logo" class="footer-logo">
+                <p class="logo-quote"></p>
+                <div class="socials">
+                    <a href=""><img src="../images/icons8-facebook-30.png" alt=" facebook icon"></a>
+                    <a href=""><img src="../images/icons8-instagram-30.png" alt="instagram icon"></a>
+                    <a href=""><img src="../images/icons8-x-30.png" alt="twitter icon"></a>
+                </div>
+            </div>
+            <div class="footer-card">
+                <p class="footer-card-title"> navigate</p>
+                
+                 <div class="footer-nav-links">
+                    <ul>
+                        <li><a href="./index.html">home</a></li>
+                        <li><a href="./index.html#about"> about</a></li>
+                        <li><a href="./volunteer.html">volunteer</a></li>
+                        <li><a href="./programs.html">programs</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+         <div class="footnote">
+            <div class="container">
+                <p> <a href=""> privacy and policy</a></p>
+                <p> copyright  &copy; KindRoot Foundation 2025</p>
+                <a href="#top"><i class="fa fa-arrow-up"></i></a>
+                </div>
+            </div>
+    </footer>
+    <script src="../dist/js/script.js"></script>
+
+</body>
+</html>

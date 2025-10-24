@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            font-size: clamp(1rem, 2vw + 0.2rem, 1.25rem);
+            line-height: 1.6;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .container{
+            max-width: min(1200px, 100%);
+            padding: 30px;
+            margin: 0 auto;
+        }
+        .logo{
+            font-size: clamp(2rem, calc(2vw + 0.5rem),  3rem);
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        nav .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .container ul.main-menu{
+            display: flex;
+            gap: 2rem;
+        }
+
+        .btn-order{
+            background-color: black;
+            padding: 6px 12px;
+            color: #fff;
+            border-radius: 12px;
+            text-align: center;
+            text-transform: capitalize;
+            cursor: pointer;
+            
+        }
+        .mobile-menu{
+            display: flex;
+            justify-content: space-between;
+            background-color: yellow;
+            width: 50%;
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <nav>
+        <div class="container">
+            <div class="logo">
+                logo
+            </div>
+            <div class="mobile-menu" id="mainMenu">
+                <ul class="main-menu">
+                    <li><a href=""> home</a></li>
+                    <li><a href=""> about</a></li>
+                    <li><a href=""> contact</a></li>
+                </ul>
+                <div class="btn-order"> order now</div>
+            </div>
+        <div class="btn" id="hamburger-menu"> <i class="fa fa-bars"></i></div>
+        </div>
+
+         <!-- <div class="slider">
+                <div class="slide active">
+                    <img src="../images/carousel-img.jpeg" alt="">
+                     <div class="text-info">
+                        <p class="main-text"> every soul matters </p>
+                        <p class="sub-text"> we believe every soul deserve equality and immeasureable affection </p>
+                        <div class="btn white"><a href=""> learn more</a></div>
+                    </div>
+                </div>
+
+                 <div class="slide">
+                    <img src="../images/WhatsApp Image 2025-08-31 at 21.20.16.jpeg" alt="">
+                    <div class="text-info">
+                        <p class="main-text"> every soul deserve affection </p>
+                        <p class="sub-text"> we believe every soul deserve equality and immeasureable affection </p>
+                        <div class="btn white"><a href=""> learn more</a></div>
+                    </div>
+                </div>
+
+                 <div class="slide">
+                    <img src="../images/WhatsApp Image 2025-08-31 at 21.20.15.jpeg" alt="">
+                    <div class="text-info">
+                        <p class="main-text"> every soul deserve equality </p>
+                        <p class="sub-text"> we believe every soul deserve equality and immeasureable affection </p>
+                        <div class="btn white"><a href=""> learn more</a></div>
+                    </div> 
+                </div>  
+
+                 <div class="slide">
+                    <img src="../images/WhatsApp Image 2025-08-31 at 21.20.16 (1).jpeg" alt="">
+                    <div class="text-info">
+                        <p class="main-text"> every soul is unique </p>
+                        <p class="sub-text"> we believe every soul deserve equality and immeasureable affection </p>
+                        <div class="btn white"><a href=""> learn more</a></div>
+                    </div> 
+                </div>
+
+                 <div class="slide">
+                    <img src="../images/carousel-img.jpeg" alt="">
+                    <div class="text-info">
+                        <p class="main-text">every soul is great  </p>
+                        <p class="sub-text"> we believe every soul deserve equality and immeasureable affection </p>
+                        <div class="btn white"><a href=""> learn more</a></div>
+                    </div>  
+                </div>
+                <div class="navigation"> 
+                    <div class="slide-btn active" ></div>
+                    <div class="slide-btn"></div>
+                    <div class="slide-btn"></div>
+                    <div class="slide-btn"></div>
+                    <div class="slide-btn"></div>
+                </div>
+            </div> -->
+
+         <div id="toggle">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    </nav>
+    <script src="../dist/js/script.js"></script>
+</body>
+</html>
