@@ -1,4 +1,4 @@
-*{
+!*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -302,6 +302,11 @@ section.hero .container .btn{
     margin: 12px;
 }
 
+@media(max-width:768px){
+    section.hero .container .btn{
+         width: 70%;
+    }
+}
 section.hero .container .btn a{
     color: var(--base-colour);
     text-transform: capitalize;
@@ -672,7 +677,7 @@ footer.footer .container .footer-card img.footer-logo{
      footer.footer .container .footer-card:nth-of-type(1) label{
         display: block;
         text-transform: capitalize;
-        font-family: cursive;
+       font-family: "Caveat", cursive;
         font-size: clamp(1rem, calc(1vw +  0.5rem), 2rem);
         margin-top: 20px;
 
