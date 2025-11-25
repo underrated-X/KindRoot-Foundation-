@@ -519,8 +519,8 @@ section.about .container .second-card .second-card-img{
      section.testimonials .container  .group-of-cards .testimonials-first-card p{
             font-size: clamp(2rem, calc(2vw + 0.8rem), 3.5rem);     
             /* text-transform: capitalize; */
-            font-family: 'Pacifico', 
-                cursive;
+            font-weight: 900;
+            font-family: "Caveat", cursive;
             text-shadow: 0px 9px 12px #ccc;
             margin-bottom: 15px;
             
@@ -562,8 +562,8 @@ section.about .container .second-card .second-card-img{
     }
 
      section.testimonials .container  .group-of-cards .testimonials-second-card .card p:nth-of-type(1){
-        font-size: clamp(1.3rem, calc(1vw + 1rem), 2.5rem);
-        font-weight: 700;
+        font-size: clamp(1.5rem, calc(1vw + 1rem), 2.5rem);
+        font-weight: 900;
        font-family: "Caveat", cursive;
         text-shadow: 0px 8px 9px #ccc;
      }
