@@ -343,7 +343,11 @@ color: var(--primary-colour);
     section.hero .container .btn{
         width: 70%;
     }
-}
+    section.hero  .overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+   } 
+
 @media(min-width: 769px) and (max-width:1024px){
     section.hero .container .btn{
         width: 40%;
