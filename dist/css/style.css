@@ -333,6 +333,10 @@ color: var(--primary-colour);
     section.hero .container .text-info .btn{
         width: 50%;
     }
+    section.hero .container .text-info{
+        place-items: center;
+        place-content: center;
+    }
 }
  @media(min-width:769px) and (max-width:1024px){
 section.hero .container .text-info p{
