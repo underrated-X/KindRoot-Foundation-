@@ -279,7 +279,7 @@ section.hero .container{
     color: var(--primary-colour);
      text-align: center; 
      position:relative;
-     z-index: 2;
+     z-index: 1;
 }
 
 section.hero{
