@@ -443,7 +443,7 @@ footer.footer .container .footer-card img.footer-logo{
      footer.footer .container .footer-card:nth-of-type(1) label{
         display: block;
         text-transform: capitalize;
-        font-family: cursive;
+        font-family: "Caveat", cursive;
         font-size: clamp(1rem, calc(1vw +  0.5rem), 2rem);
         margin-top: 20px;
 
