@@ -561,7 +561,7 @@ section.about .container .second-card .second-card-img{
      section.testimonials .container  .group-of-cards .testimonials-second-card .card p:nth-of-type(1){
         font-size: clamp(1.3rem, calc(1vw + 1rem), 2.5rem);
         font-weight: 500;
-        font-family: cursive;
+       font-family: "Caveat", cursive;
         text-shadow: 0px 8px 9px #ccc;
      }
      @media(max-width:768px){
@@ -752,7 +752,7 @@ section.about .container .second-card .second-card-img{
      footer.footer .container .footer-card:nth-of-type(1) label{
         display: block;
         text-transform: capitalize;
-        font-family: cursive;
+    font-family: "Caveat", cursive;
         font-size: clamp(1rem, calc(1vw +  0.5rem), 2rem);
         margin-top: 20px;
 
