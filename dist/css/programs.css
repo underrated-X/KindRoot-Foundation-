@@ -337,16 +337,13 @@ color: var(--primary-colour);
 
 @media(max-width:768px){
     section.hero .container .overlay{
-        background-color: rgba(0,0,0,0.4 );
+        background-color: rgba(0,0,0,0.8 );
     }
     
     section.hero .container .btn{
         width: 70%;
     }
-    section.hero  .overlay{
-    background-color: rgba(0,0,0,0.9);
-        z-index: 2;
-   } 
+  
 
 @media(min-width: 769px) and (max-width:1024px){
     section.hero .container .btn{
