@@ -515,7 +515,8 @@ section.about .container .second-card .second-card-img{
      section.testimonials .container  .group-of-cards .testimonials-first-card p{
             font-size: clamp(2rem, calc(2vw + 0.8rem), 3.5rem);     
             /* text-transform: capitalize; */
-            font-family: cursive;
+            font-family: 'Pacifico', 
+                cursive;
             text-shadow: 0px 9px 12px #ccc;
             margin-bottom: 15px;
             
