@@ -344,8 +344,8 @@ color: var(--primary-colour);
         width: 70%;
     }
     section.hero  .overlay{
-    position: absolute;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.9);
+        z-index: 2;
    } 
 
 @media(min-width: 769px) and (max-width:1024px){
