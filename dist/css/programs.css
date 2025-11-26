@@ -278,11 +278,11 @@ section.hero .container{
     align-items: center;
     color: var(--primary-colour);
      text-align: center; 
-     position:relative;
-     z-index: 1;
+     /* position:relative;
+     z-index: 1; */
 }
 
-section.hero{
+/* section.hero{
     position: relative;
 }
 section.hero  .overlay{
@@ -293,7 +293,7 @@ section.hero  .overlay{
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
-} 
+}  */
 
 section.hero .container p:nth-of-type(1){
     font-size: clamp(3rem, calc(2vw + 3rem), 6.5rem);
@@ -336,8 +336,8 @@ color: var(--primary-colour);
 
 
 @media(max-width:768px){
-    section.hero .container .overlay{
-        background-color: rgba(0,0,0,0.8 );
+    section.hero .container p:nth-of-type(2){
+        font-weight: 400;
     }
     
     section.hero .container .btn{
