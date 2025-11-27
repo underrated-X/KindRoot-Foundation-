@@ -336,8 +336,8 @@ color: var(--primary-colour);
 
 
 @media(max-width:768px){
-    section.hero .container .overlay{
-        background-color: rgba(0,0,0,0.4 );
+    section.hero .container {       
+    background-position: center top -10px;
     }
     
     section.hero .container .btn{
