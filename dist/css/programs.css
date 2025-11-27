@@ -337,7 +337,7 @@ color: var(--primary-colour);
 
 @media(max-width:768px){
     section.hero .container {       
-    background-position: center top -10px;
+    background-position: center top 30px;
     }
     
     section.hero .container .btn{
