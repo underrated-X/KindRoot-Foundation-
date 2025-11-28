@@ -278,14 +278,14 @@ section.hero .container{
     align-items: center;
     color: var(--primary-colour);
      text-align: center; 
-     position:relative;
-     z-index: 2;
+    
 }
 
 section.hero{
     position: relative;
 }
-section.hero  .overlay{
+section.hero::before{
+    content: '';
     position: absolute;
     left: 0;
     height: 0;
@@ -295,6 +295,11 @@ section.hero  .overlay{
     z-index: 1;
 } 
 
+section.hero .container p{
+    position:relative;
+    z-index: 2;
+    text-shadow: 1px 1px 7px rgba(0,0,0,0.7);
+}
 section.hero .container p:nth-of-type(1){
     font-size: clamp(3rem, calc(2vw + 3rem), 6.5rem);
     font-weight: 900;
@@ -343,6 +348,13 @@ color: var(--primary-colour);
     
     section.hero .container .btn{
         width: 70%;
+    }
+
+    section.hero::before{
+         background-color: rgba(0,0,0,0.5);
+    }
+    section.hero .container{
+        background-position: center top;
     }
 }
 @media(min-width: 769px) and (max-width:1024px){
