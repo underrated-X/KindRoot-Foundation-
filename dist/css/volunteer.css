@@ -341,7 +341,8 @@ section.reason .container .icons .card{
     height: 200px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    flex-direction: column;
     transition: var(--transition);
 }
 
@@ -495,6 +496,7 @@ section.application .container .grid-cards .card{
      display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
 }
 
