@@ -295,7 +295,8 @@ section.hero::before{
     z-index: 1;
 } 
 
-section.hero .container p{
+section.hero .container p,
+section.hero .container .btn{
     position:relative;
     z-index: 2;
     text-shadow: 1px 1px 7px rgba(0,0,0,0.7);
@@ -446,15 +447,19 @@ section.help .container .grid-cards{
  section.help .container .grid-cards .card{
     height: 12.5rem;
     color: var(--primary-colour);
-    place-content: center;
-    place-items: center;
-    font-size: clamp(1.5rem, calc(1vw + 1.2rem), 2.8rem );
+     display: flex;
+    justify-content: center;
+    alogn-items: center;
+    font-size: clamp(1.8rem, calc(1vw + 1.2rem), 2.8rem );
     font-weight: bold;
     text-transform: uppercase;
     transition: var(--transition);
     box-shadow: 1px 1px 9px rgba(0,0,0,0.5),-1px -1px 9px rgba(0,0,0,0.3);
     
 }
+ /* section.help .container .grid-cards .card p{
+     tex-align: center;
+ } */
  section.help .container .grid-cards .card:hover{
     transform: translateY(-10px);
  }
