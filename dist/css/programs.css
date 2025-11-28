@@ -460,7 +460,7 @@ section.help .container .grid-cards{
     
 }
  section.help .container .grid-cards .card p{
-     tex-align: center;
+     text-align: center;
  }
  section.help .container .grid-cards .card:hover{
     transform: translateY(-10px);
