@@ -325,11 +325,17 @@ main .container form.material-form .container-sm .quality{
     margin: 30px auto;
 }
 main .container form.material-form .container-sm .quality input[type="radio"]{
-    width: 9px;
-    height: 9px;
+    width: 18px;
+    height: 18px;
     accent-color: var(--base-colour);
-    margin: 2px;
+    margin: 5px;
     
+}
+@media (max-width: 600px) {
+  input[type="radio"] {
+    width: 14px;
+    height: 14px;
+  }
 }
 main .container form.material-form .container-sm .quality label{
     margin-top: 0;
