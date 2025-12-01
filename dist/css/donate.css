@@ -335,7 +335,7 @@ main .container form.material-form .container-sm .quality input[type="radio"]{
   input[type="radio"] {
     width: 9px;
     height: 9px;
-      margin: 2px;
+      margin:0;
   }
 }
 main .container form.material-form .container-sm .quality label{
