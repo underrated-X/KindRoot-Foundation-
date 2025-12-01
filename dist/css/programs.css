@@ -359,6 +359,9 @@ color: var(--primary-colour);
     section.hero .container{
         background-position: center top;
     }
+    section.hero .container{
+        min-height: 500px;
+    }
 }
 @media(min-width: 769px) and (max-width:1024px){
     section.hero .container .btn{
