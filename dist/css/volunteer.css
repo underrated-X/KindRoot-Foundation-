@@ -639,6 +639,7 @@ section.form .container form .container-sm input,select{
     font-size: 1rem;
     padding: 10px;
     border: 2px solid var(--complimentary-colour);
+    outline:#000;
 }
 
 section.form .container form .container-sm{
