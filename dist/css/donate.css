@@ -333,8 +333,8 @@ main .container form.material-form .container-sm .quality input[type="radio"]{
 }
 @media (max-width: 600px) {
   input[type="radio"] {
-    width: 14px;
-    height: 14px;
+    width: 9px;
+    height: 9px;
   }
 }
 main .container form.material-form .container-sm .quality label{
