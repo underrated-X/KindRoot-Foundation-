@@ -335,6 +335,7 @@ main .container form.material-form .container-sm .quality input[type="radio"]{
   input[type="radio"] {
     width: 9px;
     height: 9px;
+      margin: 2px;
   }
 }
 main .container form.material-form .container-sm .quality label{
@@ -402,17 +403,6 @@ main .container form .container-sm  .switchForm a{
 .hidden{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
