@@ -335,7 +335,7 @@ main .container form.material-form .container-sm .quality{
 }
 main .container form.material-form .container-sm .quality inputs{
     display: flex;
-    gap:10px;
+    gap:15px;
      
 }
 main .container form.material-form .container-sm .quality input[type="radio"]{
