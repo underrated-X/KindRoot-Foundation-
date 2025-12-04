@@ -325,6 +325,7 @@ main .container form.material-form .container-sm input, textarea{
 main .container form.material-form .container-sm .quality{
     display: flex;
     flex-direction: column;
+    text-align:left ;
     gap: 10px;
     margin: 30px auto;
 }
