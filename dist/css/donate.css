@@ -342,14 +342,14 @@ main .container form.material-form .container-sm .quality input[type="radio"]{
     width: 15px;
     height: 15px;
     accent-color: var(--base-colour);
-    margin: 5px auto;
+  
     
 }
 @media (max-width: 600px) {
   input[type="radio"] {
     width: 9px;
     height: 9px;
-      margin:0;
+   
   }
 }
 main .container form.material-form .container-sm .quality label{
