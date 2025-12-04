@@ -309,6 +309,10 @@ main .container form .container-sm input, textarea{
 main .container form .container-sm input::placeholder,
 main .container form .container-sm textarea::placeholder{
     font-family:"poppins", sans-serif;
+    -webkit-font-family:"poppins", sans-serif !important;
+    -moz-font-family:"poppins", sans-serif !important;
+    -o-font-family:"poppins", sans-serif !important;
+    
 }
 main .container form.material-form .container-sm{
     padding: 30px;
@@ -335,8 +339,8 @@ main .container form.material-form .container-sm .quality inputs{
      
 }
 main .container form.material-form .container-sm .quality input[type="radio"]{
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
     accent-color: var(--base-colour);
     margin: 5px auto;
     
