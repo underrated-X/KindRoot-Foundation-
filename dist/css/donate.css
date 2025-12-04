@@ -324,8 +324,6 @@ main .container form.material-form .container-sm input, textarea{
 
 main .container form.material-form .container-sm .quality{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     gap: 10px;
     margin: 30px auto;
@@ -333,6 +331,8 @@ main .container form.material-form .container-sm .quality{
 main .container form.material-form .container-sm .quality inputs{
     display: flex;
     gap:10px;
+     justify-content: center;
+    align-items: center;
 }
 main .container form.material-form .container-sm .quality input[type="radio"]{
     width: 18px;
