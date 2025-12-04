@@ -332,14 +332,13 @@ main .container form.material-form .container-sm .quality{
 main .container form.material-form .container-sm .quality inputs{
     display: flex;
     gap:10px;
-     justify-content: center;
-    align-items: center;
+     
 }
 main .container form.material-form .container-sm .quality input[type="radio"]{
     width: 18px;
     height: 18px;
     accent-color: var(--base-colour);
-    margin: 5px;
+    margin: 5px auto;
     
 }
 @media (max-width: 600px) {
