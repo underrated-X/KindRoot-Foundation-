@@ -306,6 +306,10 @@ main .container form .container-sm input, textarea{
     background-color:transparent;
     
 }
+main .container form .container-sm input::placeholder,
+main .container form .container-sm textarea::placeholder{
+    font-family:"poppins", sans-serif;
+}
 main .container form.material-form .container-sm{
     padding: 30px;
     
@@ -322,6 +326,7 @@ main .container form.material-form .container-sm .quality{
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
+    flex-direction: column;
     margin: 30px auto;
 }
 main .container form.material-form .container-sm .quality input[type="radio"]{
