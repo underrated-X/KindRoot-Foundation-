@@ -8,7 +8,7 @@
     --primary-colour:#fff;
     --complimentary-colour:#ccc;
     /* --shadow: 2px 2px 6px rgba(0,0,0,0.3),-2px -2px 6px rgba(0,0,0,0.5); */
-    --shadow: box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
     --transition: 0.15s ease all; 
 }
