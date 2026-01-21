@@ -459,7 +459,7 @@ section.help .container .grid-cards{
     font-weight: bold;
     text-transform: uppercase;
     transition: var(--transition);
-    box-shadow: 1px 1px 9px rgba(0,0,0,0.5),-1px -1px 9px rgba(0,0,0,0.3);
+    box-shadow: var(--shadow);
     
 }
  section.help .container .grid-cards .card p{
