@@ -450,7 +450,7 @@ section.help .container .grid-cards{
     grid-template-columns: repeat(auto-fit,minmax(15.625, 1fr));
 } 
  section.help .container .grid-cards .card{
-    height: 12.5rem;
+    height: 18.8rem;
     color: var(--primary-colour);
      display: flex;
     justify-content: center;
