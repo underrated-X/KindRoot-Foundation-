@@ -631,7 +631,7 @@ section.form{
 }
 
 section.form .container form .container-sm input,select{
-    display: block;
+    /* display: block; */
     padding:  15px;
     margin-bottom: 20px;
     width: 100%;
