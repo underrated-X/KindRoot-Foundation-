@@ -631,7 +631,7 @@ section.form{
 }
 
 section.form .container form .container-sm input,select{
-    /* display: block; */
+    display: block;
     padding:  15px;
     margin-bottom: 20px;
     width: 100%;
@@ -668,8 +668,8 @@ section.form .container form .container-sm select:nth-of-type(1) option{
     border:2px solid #000;
 }
 section.form .container form .container-sm select option:hover{
-    background-color: var(--base-colour) ;
-     color: var(--primary-colour) !;    
+    background-color: var(--base-colour);
+     color: var(--primary-colour);    
 }
 section.form .container form .container-sm .btn{
     padding: 0.625rem 1.563;
