@@ -286,8 +286,7 @@ section.hero {
     place-content: center;
     place-items: center;
     min-height: 600px;
-     max-width: 100%;
-     background-size: cover;
+    
 }
 
 
