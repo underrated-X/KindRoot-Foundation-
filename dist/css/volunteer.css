@@ -277,14 +277,17 @@ nav.navbar:hover .hamburger-menu{
 
 /* hero section */
 section.hero {
-    background-image: linear-gradient(135deg,  #2b0f01 ,#3C2A21);
+   
    
 }
 
  section.hero .container{
+    background-image: linear-gradient(135deg,  #2b0f01 ,#3C2A21);
     place-content: center;
     place-items: center;
     min-height: 600px;
+     width: 100%;
+     background-size: cover;
 }
 
 
