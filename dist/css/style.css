@@ -436,7 +436,7 @@ section.about .container .second-card .second-card-img{
         width: 70%;
     }
 
-    @media(max-width:768px){
+    @media(max-width:900px){
         .container{
             padding: 6px 2.5%;
         }
@@ -470,7 +470,7 @@ section.about .container .second-card .second-card-img{
             }
     }
 
-     @media(min-width:769px) and (max-width:1024px){
+     /* @media(min-width:769px) and (max-width:1024px){
          section.about .container .second-card img{
                  width: 100%;
                  
@@ -496,7 +496,7 @@ section.about .container .second-card .second-card-img{
             .slide .text-info .btn{
             width:40%;
             }
- }
+ } */
     section.testimonials{
         margin-top: 100px;
     }
