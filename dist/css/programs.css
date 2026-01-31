@@ -421,11 +421,11 @@ section.programs .container .card-container .card{
     padding: 5px;
     
 }
-/* .card-img img{
+ .card-img img{
  height: 500px;   
  object-fit: fill;
 }
-section.programs .container .card .card-img {
+/*section.programs .container .card .card-img {
         background-color: goldenrod;
         border: 7px yellow solid ;
         height: inherit;
