@@ -440,13 +440,12 @@ section.about .container .second-card .second-card-img{
         .container{
             padding: 6px 2.5%;
         }
-            section.about .container .second-card img,   
-            section.about .container .second-card  .box-of-card .card{
+            section.about .container .second-card img{
                  width: 100%;
                  height: auto;
                  
             }
-             section.about .container .second-card  .box-of-card .card:nth-of-type(2){
+             section.about .container .second-card  .box-of-card {
                 height:31.25rem;
              }
              section.about .container .second-card  .box-of-card .card{
