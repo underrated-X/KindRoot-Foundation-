@@ -214,7 +214,7 @@ nav.navbar .btn a{
 nav.navbar:hover .hamburger-menu{
     color: var(--primary-colour);
 }
-@media(max-width:768px){
+@media(max-width:900px){
     nav.navbar:hover   .container div.mobile-menu{
         background-color: var(--base-colour);
     }
@@ -255,7 +255,7 @@ nav.navbar:hover .hamburger-menu{
         margin: 0;
     }
 }
-@media(min-width:769px) and (max-width: 1024px){
+/*@media(min-width:769px) and (max-width: 1024px){
     nav.navbar:hover   .container div.mobile-menu{
         background-color: var(--base-colour);
     }
@@ -267,7 +267,7 @@ nav.navbar:hover .hamburger-menu{
         gap: 1.2rem;
         
 }
-/* nav.navbar .container .logo a img{
+ nav.navbar .container .logo a img{
     width: 60px;
     height: 60px;
     background-color: transparent ;
