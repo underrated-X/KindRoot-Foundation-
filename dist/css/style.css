@@ -445,12 +445,13 @@ section.about .container .second-card .second-card-img{
                  height: auto;
                  
             }
-             section.about .container .second-card  .box-of-card {
+             /* section.about .container .second-card  .box-of-card {
                 height:31.25rem;
-             }
+             } */
              section.about .container .second-card  .box-of-card .card{
                  padding: 10px;
                  margin-top: 40px;
+                  height: 31.25rem;
                  
             }
             section.about .container .second-card .box-of-card .card img{
