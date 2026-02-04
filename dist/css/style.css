@@ -436,6 +436,15 @@ section.about .container .second-card .second-card-img{
         width: 70%;
     }
 
+  @media(max-width:769px){
+       section.about .container .second-card  .box-of-card .card{
+                 padding: 15px;
+                 width:100%;
+                 margin-top: 40px;
+                  height: 100%;
+                 
+                 }
+  }
     @media(max-width:900px){
         .container{
             padding: 6px 2.5%;
