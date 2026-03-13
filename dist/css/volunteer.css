@@ -1,4 +1,4 @@
-!*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -273,14 +273,14 @@ nav.navbar:hover .hamburger-menu{
     background-color: transparent ;
 } */
  
-     }
+     
 
-/* hero section */
+/* hero section 
 section.hero {
    
    
 }
-
+*/
  section.hero .container{
     background-image: linear-gradient(135deg,  #2b0f01 ,#3C2A21);
     place-content: center;

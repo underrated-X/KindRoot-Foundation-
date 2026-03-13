@@ -276,7 +276,7 @@ section.hero  .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-ditection:column;
+    flex-direction:column;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
